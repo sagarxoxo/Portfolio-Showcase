@@ -1,0 +1,165 @@
+.row1 {
+  padding: 60px 100px;
+}
+.row1 h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.card1 {
+  padding: 10px 80px;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.icon {
+  padding: 18px;
+  background: #333;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #333;
+}
+
+textarea {
+  outline: none;
+}
+textarea:focus {
+  padding: 1px;
+  border: 2px solid #333;
+}
+
+.inner-row {
+  margin-top: 40px;
+}
+
+.inner-row label {
+  font-weight: bold;
+}
+
+.btnBlog {
+  margin-top: 15px;
+  color: #333;
+  border: 1px solid #333;
+  background-color: transparent;
+  padding: 10px 25px;
+  font-weight: 600;
+}
+
+.btnBlog:hover {
+  color: #ecf0f6;
+  background-color: #333;
+}
+
+.contactInfo {
+  padding-top: 30px;
+}
+
+.contactInfo p {
+  font-size: 20px;
+}
+
+.card2 .con {
+  color: #b0b0b0;
+  font-size: 17px;
+}
+
+.contactInfo li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+.contactInfo li i {
+  margin-right: 20px;
+}
+
+.fainfo {
+  color: white;
+  background: #333;
+  padding: 17px;
+  border-radius: 50%;
+}
+
+.hours {
+  padding-top: 30px;
+}
+
+.hours h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.hours ul {
+  padding-left: 0px;
+}
+
+.hours li {
+  font-weight: 400;
+  color: #000;
+  list-style-type: none;
+}
+
+.soc {
+  padding-top: 30px;
+}
+
+.soc h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.btnSoc {
+  color: white;
+  background: #333;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 20px;
+}
+
+.btnSoc:hover {
+  background: #111;
+}
+
+.btnSoc i {
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 1449px) {
+  .row1 {
+    padding: 60px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .row1 {
+    padding: 60px 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .row1 {
+    padding: 60px 0px;
+  }
+
+  .card1 {
+    padding: 10px 20px;
+  }
+
+  .card2 {
+    padding: 40px 20px;
+  }
+}
